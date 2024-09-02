@@ -38,6 +38,7 @@ interface Recipe {
   ingredients: string[];
   instructions: string;
   prepTime: number; // en minutes
+  imageUrl?: string;
 }
 ```
 
@@ -55,6 +56,7 @@ interface Recipe {
 1. Ajouter une fonction de recherche pour filtrer les recettes par nom
 2. Implémenter une catégorisation des recettes (entrée, plat, dessert)
 3. Ajouter des animations simples pour améliorer l'expérience utilisateur
+4. Ajouter une image depuis Unsplash ou autres
 
 ## Critères d'évaluation
 
